@@ -1,0 +1,77 @@
+/* Враппер   */
+.wrapper{
+  width: 660px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: beige;
+  padding: 60px;
+  text-align: center;
+}
+.container{
+  max-width: 509px;
+  margin: auto;
+}
+/* Инпут */
+.wrapper__input{
+  width: 500px;
+  height: 61px; 
+
+}
+/* Автокомплит */
+.wrapper__result{
+  background-color: aqua;
+  
+}
+
+.wrapper__result-item{
+  background-color: rgb(200, 187, 187);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  height: 45px;
+  border: 1px solid #524f4f;
+}
+
+/* Список добавленных */
+.wrapper__users {
+  margin-top: 40px;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.wrapper__users-item{
+
+  display: flex;
+  align-items: center;  
+  position: relative;
+  background-color: rgb(229, 215, 250);
+  border: 1px solid #524f4f;
+  height: 130px;
+}
+.wrapper__users-text{
+  white-space: pre-line;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  max-width:  390px;
+  text-align: justify;
+  padding : 16px;
+}
+
+
+.wrapper__users-button{
+  position: absolute;
+  left: 400px;
+  cursor: pointer;
+  background: url(./img/close.svg);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  border: none;
+  
+}
